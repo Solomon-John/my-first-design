@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fa-globe {
+    padding: 4px;
+}
+
+.fa-user {
+    padding: 4px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background: url(./images/fuck1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main header {}
+
+.main-nav {
+    margin: 0 5%;
+    overflow: hidden;
+}
+
+.main-nav ul {
+    float: right;
+    margin: 10px;
+    list-style-type: none;
+}
+
+.main-nav ul li {
+    float: left;
+    display: inline-block;
+}
+
+.main-nav ul li a {
+    color: #fff;
+    margin: 0 auto;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 1.0rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main-nav a:hover {
+    color: red;
+}
+
+/* --------------------------main div............................ */
+.main-div {
+    display: inline-flex;
+    padding: 4px;
+}
+
+.main-div ul {
+    margin: 0 auto;
+    list-style-type: none;
+    padding-left: 300px;
+}
+
+.main-div ul li {
+    display: inline-block;
+    background-color: rgba(2, 2, 2, 0.5);
+     border: transparent;
+}
+
+.main-div ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    padding: 10px;
+}
+
+.main-div a:hover {
+    color: red;
+}
+.btn-button {
+    margin-top: 0 auto;
+    margin: 0 15px;
+    cursor: pointer;
+    border: 1px solid royalblue;
+    border-radius: 5px;
+    background-color: royalblue;
+    padding: 5px;
+    color: #fff;
+    width: 80px;
+}
+
+/*------------------------------ End of main div-------------------------- */
+.main-menu {
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.main-menu ul {
+    list-style-type: none;
+    margin-top: 90px;
+}
+
+.main-menu ul li {
+    margin: 0 10px;
+    padding: 8px;
+    z-index: 1;
+}
+
+.main-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.0rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* overflow: hidden; */
+}
+
+.main-menu a:hover {
+    color: red;
+}
+
+.cloud {
+    margin-top: 0%;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    z-index: 1;
+}
+
+h1 {
+    font-size: 2.9rem;
+    margin-top: -250px;
+    text-shadow: 4px 4px 3px black;
+}
+/* ------------social media-------------------------- */
+h2{
+    color: #fff;
+    text-transform: capitalize;
+}
+.contact{
+    text-align: center;
+    margin: 20px;
+    margin-top: 40px;
+}
+.contact ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+.contact ul li{
+    padding: 10px;
+    display: inline-block;
+}
+.contact ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.contact a:hover{
+    color: red;
+}
+.contact img{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+}
+.fixed{
+    margin-top: 88px;
+    float: right;
+    background-color: rgba(2, 2, 2, 0.2);
+    border-radius: 20px;
+}
